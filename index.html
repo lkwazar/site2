@@ -78,8 +78,8 @@
                   </div>
                   <div class="content__column content__column_left">
                      <div class="page-image page-image_right">
-                        <div class="page-image__item page-image__item_right ibg">
-                           <img src="img/1.jpg" alt="">
+                        <div class="page-image__item page-image__item_right">
+                           <img src="img/1.jpg" srcset="img/1.jpg 750w, img/1-mobile.jpg 200w" sizes="(max-width: 1024px) 50vw" alt="">
                         </div>
                      </div>
                   </div>
@@ -131,13 +131,13 @@
                            </div>
                            <div class="booking-form__column">
                               <input type="text" class="" name="email" placeholder="Email">
-                              <select name="people" id="booking-form">
+                              <select name="people">
                                  <option value="" disabled selected>People</option>
                                  <option value="1">1</option>
                                  <option value="2">2</option>
                                  <option value="3">3</option>
                               </select>
-                              <select name="time" id="booking-form">
+                              <select name="time">
                                  <option value="" disabled selected>Time</option>
                                  <option value="1">12:00 - 18:00</option>
                                  <option value="2">18:00 - 00:00</option>
@@ -839,8 +839,8 @@
    </div>
 </footer>
    </div>
-   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script type="text/javascript" src="js/script.min.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/script.min.js"></script>
+<script src="js/slick.min.js"></script>
 </body>
 </html>
